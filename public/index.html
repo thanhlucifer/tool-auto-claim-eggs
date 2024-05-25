@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quack Quack Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="my-4">Quack Quack Game</h1>
+        <div class="input-group mb-3">
+            <input id="access-token-input" type="text" class="form-control" placeholder="Enter ACCESS_TOKEN"
+                aria-label="ACCESS_TOKEN">
+            <div class="input-group-append">
+                <button id="save-token-button" class="btn btn-success shadow-lg" type="button">Save Token</button>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Total Eggs</h5>
+                        <p id="total-eggs" class="card-text display-4">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Collectable Eggs</h5>
+                        <p id="collectable-eggs" class="card-text display-4">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <h2>Egg List</h2>
+            <ul id="egg-list" class="list-group"></ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+body {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #0093E9;
+    background-image: url(https://quackquack.games/images/bottom-print.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 70vh;
+    overflow: hidden;
+}
+
+.container h1 {
+    background: linear-gradient(to top, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card {
+    background: rgba(174, 206, 212, 0.2) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.row .card-body h5 {
+    color: aliceblue !important;
+}
+
+
+.row .card-body p {
+    background: linear-gradient(to top, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.list {
+    max-height: 800px;
+    overflow-y: auto; 
+}
+
+.list h2 {
+    background: linear-gradient(to top, rgb(236, 16, 137), rgb(67, 6, 236));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.list ul {
+    color: red;
+    background:none !important;
+}
